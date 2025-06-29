@@ -1,0 +1,128 @@
+WARNING: No IPv4 address found on anpi0 !
+WARNING: No IPv4 address found on anpi2 !
+WARNING: more No IPv4 address found on anpi1 !
+/Users/hasanabasov/Desktop/Desktop_File/Ege/Siber/NetWatcher/backend/main.py:160: DeprecationWarning: 
+        on_event is deprecated, use lifespan event handlers instead.
+
+        Read more about it in the
+        [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+        
+  @app.on_event("shutdown")
+INFO:     Started server process [91592]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:50979 - "GET /api/interfaces HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51199 - "GET /api/interfaces HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51221 - "GET /api/interfaces HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51221 - "GET /api/interfaces HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51221 - "GET /api/interfaces HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51223 - "GET /api/interfaces HTTP/1.1" 200 OK
+INFO:     ('127.0.0.1', 51230) - "WebSocket /ws/live_packets" [accepted]
+INFO:     connection open
+ERROR:__main__:WebSocket iletişim hatası: 1001
+ERROR:__main__:WebSocket hatası: Unexpected ASGI message 'websocket.close', after sending 'websocket.close'.
+INFO:     ('127.0.0.1', 51232) - "WebSocket /ws/live_packets" [accepted]
+INFO:     connection open
+INFO:     connection closed
+ERROR:__main__:WebSocket iletişim hatası: 1001
+ERROR:__main__:WebSocket hatası: Unexpected ASGI message 'websocket.close', after sending 'websocket.close'.
+INFO:     connection closed
+INFO:     ('127.0.0.1', 51234) - "WebSocket /ws/live_packets" [accepted]
+INFO:     connection open
+INFO:__main__:Yeni WebSocket bağlantısı: lo0
+INFO:sniffer:lo0 arayüzünde paket yakalama başlatılıyor...
+ERROR:sniffer:Paket yakalama hatası: Permission denied: could not open /dev/bpf0. Make sure to be running Scapy as root ! (sudo)
+INFO:sniffer:Paket yakalama durduruluyor...
+INFO:__main__:WebSocket bağlantısı normal şekilde kapandı
+INFO:__main__:WebSocket bağlantısı kapandı: lo0
+INFO:     connection closed
+INFO:     127.0.0.1:51245 - "GET /api/interfaces HTTP/1.1" 200 OK
+INFO:     ('127.0.0.1', 51247) - "WebSocket /ws/live_packets" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:51245 - "GET /api/interfaces HTTP/1.1" 200 OK
+INFO:     ('127.0.0.1', 51249) - "WebSocket /ws/live_packets" [accepted]
+INFO:     connection open
+ERROR:__main__:WebSocket iletişim hatası: 1001
+ERROR:__main__:WebSocket hatası: Unexpected ASGI message 'websocket.close', after sending 'websocket.close'.
+INFO:     connection closed
+ERROR:__main__:WebSocket iletişim hatası: 1001
+ERROR:__main__:WebSocket hatası: Unexpected ASGI message 'websocket.close', after sending 'websocket.close'.
+INFO:     connection closed
+INFO:     ('127.0.0.1', 51251) - "WebSocket /ws/live_packets" [accepted]
+INFO:     connection open
+INFO:__main__:Yeni WebSocket bağlantısı: lo0
+INFO:sniffer:lo0 arayüzünde paket yakalama başlatılıyor...
+ERROR:sniffer:Paket yakalama hatası: Permission denied: could not open /dev/bpf0. Make sure to be running Scapy as root ! (sudo)
+INFO:sniffer:Paket yakalama durduruluyor...
+INFO:__main__:WebSocket bağlantısı normal şekilde kapandı
+INFO:__main__:WebSocket bağlantısı kapandı: lo0
+INFO:     connection closed
+INFO:     127.0.0.1:51245 - "GET /api/interfaces HTTP/1.1" 200 OK
+INFO:     ('127.0.0.1', 51257) - "WebSocket /ws/live_packets" [accepted]
+INFO:     127.0.0.1:51245 - "GET /api/interfaces HTTP/1.1" 200 OK
+INFO:     connection open
+INFO:     ('127.0.0.1', 51261) - "WebSocket /ws/live_packets" [accepted]
+INFO:     connection open
+ERROR:__main__:WebSocket iletişim hatası: 1001
+ERROR:__main__:WebSocket hatası: Unexpected ASGI message 'websocket.close', after sending 'websocket.close'.
+INFO:     connection closed
+ERROR:__main__:WebSocket iletişim hatası: 1001
+ERROR:__main__:WebSocket hatası: Unexpected ASGI message 'websocket.close', after sending 'websocket.close'.
+INFO:     connection closed
+INFO:     ('127.0.0.1', 51263) - "WebSocket /ws/live_packets" [accepted]
+INFO:     connection open
+INFO:__main__:Yeni WebSocket bağlantısı: lo0
+INFO:sniffer:lo0 arayüzünde paket yakalama başlatılıyor...
+ERROR:sniffer:Paket yakalama hatası: Permission denied: could not open /dev/bpf0. Make sure to be running Scapy as root ! (sudo)
+INFO:sniffer:Paket yakalama durduruluyor...
+INFO:     127.0.0.1:51265 - "GET /api/interfaces HTTP/1.1" 200 OK
+INFO:__main__:WebSocket bağlantısı normal şekilde kapandı
+INFO:__main__:WebSocket bağlantısı kapandı: lo0
+INFO:     connection closed
+INFO:     127.0.0.1:51259 - "GET /api/interfaces HTTP/1.1" 200 OK
+INFO:     ('127.0.0.1', 51286) - "WebSocket /ws/live_packets" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:51259 - "GET /api/interfaces HTTP/1.1" 200 OK
+INFO:     ('127.0.0.1', 51290) - "WebSocket /ws/live_packets" [accepted]
+INFO:     connection open
+ERROR:__main__:WebSocket iletişim hatası: 1001
+ERROR:__main__:WebSocket hatası: Unexpected ASGI message 'websocket.close', after sending 'websocket.close'.
+INFO:     connection closed
+ERROR:__main__:WebSocket iletişim hatası: 1001
+ERROR:__main__:WebSocket hatası: Unexpected ASGI message 'websocket.close', after sending 'websocket.close'.
+INFO:     connection closed
+INFO:     ('127.0.0.1', 51292) - "WebSocket /ws/live_packets" [accepted]
+INFO:     connection open
+INFO:__main__:Yeni WebSocket bağlantısı: lo0
+INFO:sniffer:lo0 arayüzünde paket yakalama başlatılıyor...
+ERROR:sniffer:Paket yakalama hatası: Permission denied: could not open /dev/bpf0. Make sure to be running Scapy as root ! (sudo)
+INFO:sniffer:Paket yakalama durduruluyor...
+INFO:__main__:WebSocket bağlantısı normal şekilde kapandı
+INFO:__main__:WebSocket bağlantısı kapandı: lo0
+INFO:     connection closed
+INFO:     127.0.0.1:51360 - "GET /api/interfaces HTTP/1.1" 200 OK
+INFO:     ('127.0.0.1', 51361) - "WebSocket /ws/live_packets" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:51360 - "GET /api/interfaces HTTP/1.1" 200 OK
+INFO:     ('127.0.0.1', 51365) - "WebSocket /ws/live_packets" [accepted]
+INFO:     connection open
+ERROR:__main__:WebSocket iletişim hatası: 1001
+ERROR:__main__:WebSocket hatası: Unexpected ASGI message 'websocket.close', after sending 'websocket.close'.
+INFO:     connection closed
+ERROR:__main__:WebSocket iletişim hatası: 1001
+ERROR:__main__:WebSocket hatası: Unexpected ASGI message 'websocket.close', after sending 'websocket.close'.
+INFO:     connection closed
+INFO:     ('127.0.0.1', 51367) - "WebSocket /ws/live_packets" [accepted]
+INFO:     connection open
+INFO:__main__:Yeni WebSocket bağlantısı: lo0
+INFO:sniffer:lo0 arayüzünde paket yakalama başlatılıyor...
+ERROR:sniffer:Paket yakalama hatası: Permission denied: could not open /dev/bpf0. Make sure to be running Scapy as root ! (sudo)
+INFO:sniffer:Paket yakalama durduruluyor...
+INFO:     Shutting down
+INFO:__main__:WebSocket bağlantısı normal şekilde kapandı
+INFO:__main__:WebSocket bağlantısı kapandı: lo0
+INFO:     connection closed
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [91592]
